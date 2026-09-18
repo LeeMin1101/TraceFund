@@ -1,0 +1,7 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Các custom CSS thêm nếu cần thiết */
+body {
+  @apply bg-gray-50;
+}
