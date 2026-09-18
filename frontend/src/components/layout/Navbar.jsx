@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
-import logoImg from "../../assets/logo.PNG";
+import logoImg from "../../assets/logo.png";
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import { ShieldCheck, Globe, Wallet, LogOut } from "lucide-react"; 
 
